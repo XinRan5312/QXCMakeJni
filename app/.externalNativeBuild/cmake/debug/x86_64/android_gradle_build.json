@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/xinran/fanhai_space/JNI_Samples/QXCMakeJniDemo/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/xinran/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/xinran/fanhai_space/JNI_Samples/QXCMakeJniDemo/app/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/xinran/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/xinran/fanhai_space/JNI_Samples/QXCMakeJniDemo/app/.externalNativeBuild/cmake/debug/x86_64 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/xinran/android-sdk-macosx/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/xinran/android-sdk-macosx/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/xinran/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/xinran/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/xinran/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/xinran/android-sdk-macosx/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=22 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/xinran/fanhai_space/JNI_Samples/QXCMakeJniDemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/xinran/fanhai_space/JNI_Samples/QXCMakeJniDemo/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/xinran/fanhai_space/JNI_Samples/QXCMakeJniDemo/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+			"toolchain" : "17241918072346958829"
+		}
+	},
+	"toolchains" : 
+	{
+		"17241918072346958829" : 
+		{
+			"cCompilerExecutable" : "/Users/xinran/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/xinran/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
